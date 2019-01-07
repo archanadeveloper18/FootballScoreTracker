@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/iowaflag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/team1_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="56sp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:text="0"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="addSixForTeam1"
+        android:text="TouchDown +6"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="addThreeForTeam1"
+        android:text="FieldGoal +3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="addTwoForTeam1"
+        android:text="Saftey +2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="addAgainTwoForTeam1"
+        android:text="Conversion Two points +2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:onClick="addOneForTeam1"
+        android:text="Extra points +1"/>
+
+ </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="500dp"
+        android:background="@android:color/darker_gray">
+
+    </View>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:layout_weight="1"
+         android:orientation="vertical"
+         tools:context=".MainActivity">
+
+     <ImageView
+         android:src="@drawable/okalahomaflag"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="16dp"
+         android:layout_marginBottom="16dp"/>
+
+     <TextView
+         android:id="@+id/team2_score"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="56sp"
+         android:textColor="#000000"
+         android:fontFamily="sans-serif-light"
+         android:layout_marginBottom="24dp"
+         android:gravity="center"
+         android:text="0"/>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="24dp"
+         android:layout_marginRight="24dp"
+         android:layout_marginBottom="8dp"
+         android:onClick="addSixForTeam2"
+         android:text="TouchDown +6"/>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="24dp"
+         android:layout_marginRight="24dp"
+         android:layout_marginBottom="8dp"
+         android:onClick="addThreeForTeam2"
+         android:text="FieldGoal +3"/>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="24dp"
+         android:layout_marginRight="24dp"
+         android:layout_marginBottom="8dp"
+         android:onClick="addTwoForTeam2"
+         android:text="Saftey +2"/>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="24dp"
+         android:layout_marginRight="24dp"
+         android:layout_marginBottom="8dp"
+         android:onClick="addAgainTwoForTeam2"
+         android:text="Conversion Two points +2"/>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="24dp"
+         android:layout_marginRight="24dp"
+         android:onClick="addOneForTeam2"
+        android:text="Extra points +1"/>
+
+  </LinearLayout>
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="resetScore"
+        android:text="Reset"/>
+
+</RelativeLayout>
