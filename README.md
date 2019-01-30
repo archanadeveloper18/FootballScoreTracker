@@ -2,7 +2,7 @@
 The goal of App to create an Score Keeper app which gives a user the ability to keep track of the score of two different teams playing a game of your choice.
 
 
-MEETS SPECIFICATIONS
+## MEETS SPECIFICATIONS
 
 ->The chosen game has either multiple amounts of points that can be scored, as in american football, or multiple important metrics to track, such as fouls, outs, and innings in baseball.
 
@@ -18,7 +18,7 @@ MEETS SPECIFICATIONS
 ->The layout contains a ‘reset’ button.
 
 
-Functionality
+## Functionality
 
 ->The code runs without errors.
 
